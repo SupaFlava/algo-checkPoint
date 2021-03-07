@@ -14,10 +14,10 @@ count_Sentences
 sentences := 0;
 words := 0;
 vowels :=0;
-For (LET i = 0; i < input.length ; i++){
+FOR (LET i = 0; i < input.length ; i++){DO 
     IF input[i] === "."
      return  sentence , words, vowels ;
-
+ELSE DO
 sentence += input[i];
     IF input[i] === " "
      words ++
